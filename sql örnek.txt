@@ -1,0 +1,5 @@
+SELECT user.adi,max(user.yasi) FROM user WHERE user.adi in
+
+(select user.adi from user where user.id in 
+
+(select user_detail.user_id from user_detail where user_detail.meslek='doktor'));

@@ -1,0 +1,11 @@
+public class Main {
+    public static void main(String[] args) {
+        try{
+
+            Connection baglanti= DriverManager.getConnection("jdbc:mysql://localhost/?user=root&password=root");
+
+        }catch(SQLException e){
+            e.printStackTrace();
+        }
+    }
+}

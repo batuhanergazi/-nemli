@@ -1,0 +1,4 @@
+SELECT ad, count(*)
+FROM persons
+
+GROUP BY ad;				Adý ve sayýsýný yazan sql komutu

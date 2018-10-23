@@ -1,0 +1,5 @@
+select * from user,user_detail where user.id=user_detail.id           	KESÝÞÝM
+
+SELECT * from user left join user_detail on user.id=user_detail.id	Left Join	
+
+SELECT * from user right join user_detail on user.id=user_detail.id	Right Join

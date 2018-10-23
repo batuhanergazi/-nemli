@@ -1,0 +1,1 @@
+select il.isim,count( ilce.ilce_no) from il,ilce  where il.il_no=ilce.il_no group by il.il_no;

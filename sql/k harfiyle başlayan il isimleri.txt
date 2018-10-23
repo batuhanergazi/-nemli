@@ -1,0 +1,7 @@
+select il.isim from il where il.isim like "k%";           k harfiyle baslayan il isimleri
+
+
+select il.isim ,ilce.isim  from il,ilce  where 
+(il.il_no=ilce.il_no) and ((il.isim like "k%") or (ilce.isim  LIKE "k%"));
+	k harfiyle baslayan il
+										ve ilçe isimleri
